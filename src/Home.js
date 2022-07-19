@@ -22,5 +22,13 @@ export default function Home() {
       id: 3,
     },
   ]);
-  return <BlogList blogs={blogs} title="All blogs!" />;
+  return (
+    <div>
+      <BlogList blogs={blogs} title="All blogs!" />
+      <BlogList
+        blogs={blogs.filter((blogs) => blogs.author === `mario`)}
+        title="Marios blogs!"
+      />
+    </div>
+  );
 }
