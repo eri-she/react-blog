@@ -7,6 +7,9 @@ export default function BlogList(props) {
           <div key={index}>
             <h2>{blogs.title}</h2>
             <p>written by {blogs.author}</p>
+            <button onClick={() => props.handleDelete(blogs.id)}>
+              Delete blog
+            </button>
           </div>
         );
       })}
