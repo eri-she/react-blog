@@ -1,9 +1,10 @@
 export default function BlogList(props) {
+  const blogs = props.blogs;
   return (
     <div>
-      {props.blogs.map(function (blogs, index) {
+      {blogs.map((blogs) => {
         return (
-          <div key={index}>
+          <div key={blogs.id}>
             <p>{blogs.title}</p>
             <p>written by {blogs.author}</p>
           </div>

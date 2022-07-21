@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import BlogList from "./BlogList";
 
 export default function Home() {
-  const [blogs, setBlogs] = useState([null]);
+  const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:8000/blogs")
