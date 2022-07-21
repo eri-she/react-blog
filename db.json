@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My website",
+      "body": "a website is the...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "My laptop",
+      "body": "a laptop is the...",
+      "author": "rosa",
+      "id": 2
+    },
+    {
+      "title": "My coffee",
+      "body": "a coffee is the...",
+      "author": "julio",
+      "id": 3
+    }
+  ]
+}
