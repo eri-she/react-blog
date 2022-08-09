@@ -2,20 +2,20 @@
   "blogs": [
     {
       "title": "My website",
-      "body": "a website is the...",
-      "author": "mario",
+      "body": "A website is the collection of web pages and related dontent that is dentified by a common domain name and published on at leat one web. This article is about websites in general. For the Internet domain",
+      "author": "Mario Land",
       "id": 1
     },
     {
       "title": "My laptop",
       "body": "a laptop is the...",
-      "author": "rosa",
+      "author": "Rosa Perez",
       "id": 2
     },
     {
       "title": "My coffee",
       "body": "a coffee is the...",
-      "author": "julio",
+      "author": "Julio Meyer",
       "id": 3
     }
   ]

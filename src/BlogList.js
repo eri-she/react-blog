@@ -7,7 +7,7 @@ export default function BlogList(props) {
       {blogs.map((blogs) => {
         return (
           <div className="Blogs" key={blogs.id}>
-            <Link to={`/blog/${blogs.id}`}>
+            <Link to={`/blogs/${blogs.id}`}>
               <p>{blogs.title}</p>
               <p>written by {blogs.author}</p>
             </Link>
