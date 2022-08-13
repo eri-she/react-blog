@@ -24,6 +24,18 @@
   padding: 10px;
   color: orange;
 }
+.BlogsList {
+  text-decoration: none;
+  color: black;
+}
+.Blogs {
+  padding: 10px;
+}
+.BlogsListTitle {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
 form {
   text-align: center;
 }
