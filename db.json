@@ -17,6 +17,18 @@
       "body": "a coffee is the...",
       "author": "Julio Meyer",
       "id": 3
+    },
+    {
+      "title": "Test",
+      "body": "this is a test",
+      "author": "",
+      "id": 4
+    },
+    {
+      "title": "Test",
+      "body": "this is a test",
+      "author": "",
+      "id": 5
     }
   ]
 }

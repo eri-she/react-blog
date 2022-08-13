@@ -3,11 +3,21 @@ import { useState } from "react";
 export default function Create() {
   const [title, setTitle] = useState(``);
   const [body, setBody] = useState(``);
-  const [author, setAuthor] = useState(``);
+  const [author, setAuthor] = useState(`Mario`);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    const blog = { title, body, author };
+    fetch("http://localhost:8000/blogs/", {
+      method: `POST`,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(blog),
+    });
+  }
   return (
     <div>
       <h1 className="CreateTitle">New Blogs!</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label className="FormTitle">Blog Title</label>
         <input
           type="text"
@@ -29,7 +39,7 @@ export default function Create() {
           <option value="Mario">Mario </option>
           <option value="Rosa">Rosa </option>
         </select>
-        <button> Create New Blog</button>
+        <button> Add Blog</button>
       </form>
     </div>
   );
