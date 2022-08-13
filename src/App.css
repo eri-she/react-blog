@@ -24,3 +24,29 @@
   padding: 10px;
   color: orange;
 }
+form {
+  text-align: center;
+}
+label,
+input,
+block,
+select {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 50px;
+}
+textarea {
+  padding: 30px 50px;
+}
+.CreateTitle {
+  text-align: center;
+}
+
+button {
+  padding: 20px 20px;
+  border-radius: 5%;
+  margin-top: 30px;
+  background-color: orange;
+  font-size: 15px;
+  font-weight: bold;
+}
