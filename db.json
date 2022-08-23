@@ -22,12 +22,6 @@
       "title": "Test",
       "body": "this is a test",
       "author": "",
-      "id": 4
-    },
-    {
-      "title": "Test",
-      "body": "this is a test",
-      "author": "",
       "id": 5
     },
     {
@@ -35,12 +29,6 @@
       "body": "redirect",
       "author": "Rosa",
       "id": 6
-    },
-    {
-      "title": "last tes",
-      "body": "without point",
-      "author": "Rosa",
-      "id": 7
     }
   ]
 }
