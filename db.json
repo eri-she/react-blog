@@ -29,6 +29,18 @@
       "body": "this is a test",
       "author": "",
       "id": 5
+    },
+    {
+      "title": "Hi again",
+      "body": "redirect",
+      "author": "Rosa",
+      "id": 6
+    },
+    {
+      "title": "last tes",
+      "body": "without point",
+      "author": "Rosa",
+      "id": 7
     }
   ]
 }

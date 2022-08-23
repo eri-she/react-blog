@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 export default function Create() {
   const [title, setTitle] = useState(``);
   const [body, setBody] = useState(``);
   const [author, setAuthor] = useState(`Mario`);
+  const history = useHistory();
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -12,7 +14,7 @@ export default function Create() {
       method: `POST`,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
-    });
+    }).then(history.push(`/`));
   }
   return (
     <div>
